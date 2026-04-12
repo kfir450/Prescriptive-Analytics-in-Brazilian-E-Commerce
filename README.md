@@ -10,3 +10,4 @@ The Caution Zone: Items where customers are picky. A small 5% increase is okay, 
 The Test Zone: Luxury or unique items that behave strangely. Sometimes, raising the price actually makes them more desirable.
 
 Removing the "Noise": I made sure the data wasn't lying to us. For example, sales usually spike during holidays regardless of the price. I "cleaned" these seasonal spikes out of the math so our pricing recommendations stay accurate all year round.
+the dataset: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce?select=olist_products_dataset.csv
