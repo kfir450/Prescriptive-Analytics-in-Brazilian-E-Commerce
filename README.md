@@ -1,13 +1,30 @@
+Analysis Limitations
+Timeframe Constraints: The dataset covers only 2 years of rapid growth, making long-term time-series analysis difficult as the expansion trend masks seasonal variations.
+Price Elasticity: Observed a constant positive elasticity, indicating that price followed demand rather than driving it.
+Profit Trends: Steady growth meant no significant "standout" months; the upward trend was consistent across the period.
 
-Testing Customer "Sensitivity": Some items are essentials; people keep buying them even if the price goes up (like a specific skincare brand). Other items are "extra"; the moment the price rises, customers switch to a cheaper competitor. I measured this "sensitivity" for over 25 different categories (90)% of revenue.
+Key Insights
+Logistics & Experience: Customer satisfaction is heavily tied to delivery performance. A small group of sellers consistently underperforms in this area.
+Revenue Concentration: The top 20 sellers are responsible for 23% of total revenue.
+Customer Retention: 88% of revenue comes from one-time buyers. Repeat customers (12%) are mostly found in "high-trust" niche categories like Furniture.
+Retention Paradox: Interestingly, repeat purchases showed no strong correlation with delivery experience, suggesting other drivers for loyalty.
+Top Categories: Computers and Watches-Gifts offer the best value (highest price-to-freight ratio). Watches-Gifts is also the 2nd largest category by total revenue.
 
-Creating a Game Plan: I divided the products into three strategic groups:
 
-The Profit Zone: Items where customers aren't sensitive. Here, we can raise prices by 15-20% and see an immediate jump in profit.
+throw the data analizetioan there were many limitter factors:
+the data was only of 2 years period which the company consistantly grew it sales therefor time based series and data analitics was extreemly complicated or dident had enoghf data for it.
+price elasticety was positive constantly which just show that price followed demand and  not price elasticety.
+profited month was not very notisable as the profit constantly grew there wasent a month that standout.
+the main points: poor experience is affected by deliveryt and we have some sellers that consistantly provide poor costumer experience. 
+we also have some very "good" sallers top 20 sellers provide 23% of total revenue.
+88% of revenue come from one time costumers and only 12% is from repetetive which come mostly from certain nishe catagories where costumers need to trust the sellers such as furniture.
+the 2 best catagories in which we get the most for each dollar our costumers pay -> highest price and lowest freight is computers and watches-gifts whcih is secand in total revenue catagory!
+repetetive costumers are not related to good or bad delivery experience.
 
-The Caution Zone: Items where customers are picky. A small 5% increase is okay, but anything more could drive them away.
 
-The Test Zone: Luxury or unique items that behave strangely. Sometimes, raising the price actually makes them more desirable.
 
-Removing the "Noise": I made sure the data wasn't lying to us. For example, sales usually spike during holidays regardless of the price. I "cleaned" these seasonal spikes out of the math so our pricing recommendations stay accurate all year round.
-the dataset: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce?select=olist_products_dataset.csv
+Dataset: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce?select=olist_products_dataset.csv
+Interactive Tableau Story: https://public.tableau.com/app/profile/kfir.idan/viz/Book2_17776355947640/Story1?publish=yes
+
+
+
